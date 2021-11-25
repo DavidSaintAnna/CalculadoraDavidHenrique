@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora David</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="title"> Calculadora David</h1>
+        <div class="main-content">
+            <div class="form-content">
+                <form id="survey-form">
+                    <label for="number1" id="number1-label">Primeiro Operador</label>
+                    <input id="number1" type="number" required placeholder="Coloque seu primeiro número " value="number" />
+
+                    <label for="number2" id="number2-label">Segundo Operador</label>
+                    <input id="number2" type="number" required placeholder="Coloque seu segundo número" value="number">
+                    <button type='button' onclick="soma()">SOMAR +</button>
+                    <button type='button' onclick="subtração()">SUBTRAIR -</button>
+                    <button type='button' onclick="multiplicação()">MULTIPLICAR *</button>
+                    <button type='button' onclick="divisão()">DIVIDIR /</button><br>
+                    </br> SEU RESULTADO É <span></span>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
